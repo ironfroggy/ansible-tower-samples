@@ -5,5 +5,5 @@
       debug:
         msg: "Hello World!"
 
-- name: Check AWS Zones
-  amazon.aws.aws_az_info:
+    - name: Check AWS Zones
+      amazon.aws.aws_az_info:

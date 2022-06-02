@@ -7,3 +7,4 @@
 
     - name: Check AWS Zones
       amazon.aws.aws_az_info:
+        region: us-east-1
